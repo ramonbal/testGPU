@@ -56,10 +56,10 @@ if __name__ == "__main__":
     wandb.login(anonymous='must')
 
     config = dict(
-        epochs=100,
+        epochs=20,
         classes=102,
         kernels=[16, 32, 128],
-        batch_size=56,
+        batch_size=50,
         learning_rate=5e-3,
         dataset="MNIST",
         architecture="CNN")
